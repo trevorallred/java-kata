@@ -25,37 +25,37 @@ public class PrimeFactorsTest {
     }
 
     @Test
-    public void testOne() throws Exception {
+    public void test1() throws Exception {
         assertEquals(list(), PrimeFactors.generate(1));
     }
 
     @Test
-    public void testTwo() throws Exception {
+    public void test2() throws Exception {
         assertEquals(list(2), PrimeFactors.generate(2));
     }
 
     @Test
-    public void testThree() throws Exception {
+    public void test3() throws Exception {
         assertEquals(list(3), PrimeFactors.generate(3));
     }
 
     @Test
-    public void testFour() throws Exception {
+    public void test4() throws Exception {
         assertEquals(list(2, 2), PrimeFactors.generate(4));
     }
 
     @Test
-    public void testSix() throws Exception {
+    public void test6() throws Exception {
         assertEquals(list(2, 3), PrimeFactors.generate(6));
     }
 
     @Test
-    public void testEight() throws Exception {
+    public void test8() throws Exception {
         assertEquals(list(2, 2, 2), PrimeFactors.generate(8));
     }
 
     @Test
-    public void testNine() throws Exception {
+    public void test9() throws Exception {
         assertEquals(list(3, 3), PrimeFactors.generate(9));
     }
 
