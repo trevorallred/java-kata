@@ -2,6 +2,8 @@ package com.trevorallred.kata.PrimeFactors;
 
 import org.junit.Test;
 
+import java.util.List;
+
 import static junit.framework.Assert.assertEquals;
 
 /**
@@ -13,6 +15,10 @@ public class PrimeFactorsTest {
 
     @Test
     public void testOne() throws Exception {
-        assertEquals(list(), PrimeFactors.generate(1);
+        assertEquals(list(), PrimeFactors.generate(1));
+    }
+
+    private List<Integer> list() {
+        return null;
     }
 }
